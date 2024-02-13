@@ -12,6 +12,19 @@ ob_start();
       Finance Copro
   </div>
 
+<?php
+  // TOASTER suite à validation formulaire de contact et envoie des infos par mail à finance-copro.
+  if(isset($_POST['contact-form-flag']) && 'flag' == $_POST['contact-form-flag']) {
+		echo '<div id="toaster-contact-form" class="paragraphe-normal box relative">
+            <div id="toaster-contact-form-cross" class="absolute" onclick="closeContactFormToaster()">
+              X
+            </div>
+            Votre message a bien &eacute;t&eacute; envoy&eacute;.<br>
+            Nous vous recontactons d&egrave;s que possible.
+         </div>';
+  }
+?>
+
   <div class="row max-width-100percent jcc wrap" id="accueil-text-boxes">
     
     <div class="accueil-text-boxes" id="accueil-bienvenue">
@@ -111,6 +124,12 @@ ob_start();
         </div>
     </div>
 
+    <div id="accueil-activites-nous-contacter" class="accueil-text-boxes">
+      <h2>Nous contacter</h2>
+    </div>
+<?php
+  require_once('vues/formContact.php');
+?>
 
 </div>
 

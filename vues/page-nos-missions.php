@@ -2,5 +2,9 @@
 
     <h1>NOS MISSIONS</h1>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem rerum deleniti consequatur sed pariatur quis perferendis officia aperiam commodi, dicta facilis nihil, quae tempora eum accusantium delectus incidunt ullam ipsum quibusdam natus exercitationem placeat! Cum ipsum, totam at vitae laboriosam eum qui quibusdam provident voluptas minus quod molestias eius? Aliquam, facere eveniet! Perferendis nisi maiores non accusantium consequatur quas, quidem accusamus ab, laboriosam molestiae explicabo. Soluta ea qui ullam sed et veniam consequuntur in earum adipisci velit labore, laboriosam veritatis dolorem, suscipit sint quaerat sequi rerum vel, exercitationem vitae architecto ducimus repellat. Illum, commodi? Quam nihil a laboriosam ex enim?
+    <h2>Vous accompagner dans le choix et la mise en place des financements !</h2>
+    <div class="tc">
+        <img id="echelle-temps" src="img/nos-missions/echelle-temps.jpg" alt="échelle de temps"/>
+    </div>
+
 </div>

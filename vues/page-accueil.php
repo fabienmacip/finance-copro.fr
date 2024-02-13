@@ -22,6 +22,9 @@ ob_start();
             Votre message a bien &eacute;t&eacute; envoy&eacute;.<br>
             Nous vous recontactons d&egrave;s que possible.
          </div>';
+
+    require_once('services/sendMailNotAjax.php');
+
   }
 ?>
 

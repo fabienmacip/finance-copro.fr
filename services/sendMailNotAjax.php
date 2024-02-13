@@ -1,6 +1,6 @@
 <?php
-		if(isset($_POST['contact-form-flag']) && 'flag' == $_POST['contact-form-flag']) {
-      
+
+
 		//$DESTINATAIRE = "r.durin@finance-copro.fr";
 		$DESTINATAIRE = "fabien.macip@gmail.com";
 		$DESTINATAIRE_BCC = "fabien.macip@gmail.com";
@@ -52,7 +52,7 @@
     $sujet = "Message depuis le site finance-copro.fr de la part de ".$prenom." ".strtoupper($nom);
     $corp = "Message reçu depuis le site finance-copro.fr\n\n";
     $corp .= "CIVILITE : ".$civilite."\nNOM : ".$nom."\nPRENOM : ".$prenom."\nMAIL : ".$mail."\nTEL : ".$tel."\n\n";
-    $corp .= "ADRESSE : ".$cp." ".$ville."\n\n";
+    /* $corp .= "ADRESSE : ".$cp." ".$ville."\n\n"; */
     $corp .= "MESSAGE\n\n".$message."\n";
 
       $fromOK = 'mail_php@pcf-lcf.fr';
@@ -60,7 +60,7 @@
       $headers  = array(
 
 				'MIME-Version' => '1.0',
-				'From' => $formOK,
+				'From' => $fromOK,
 				'Reply-To' => ''.$mail,
 				'Bcc' => $DESTINATAIRE_BCC.",".$mail,
 				'Content-Type' => ' text/plain; charset="utf-8"; DelSp="Yes"; format=flowed ; ',
@@ -71,15 +71,15 @@
 			);
 
        
- 				echo "<br><br>";
+/*  				echo "<br><br>";
 				echo "DEST : ".$dest;
 				echo "<br><br>";
-				echo "HEADERS : ".$headers;
+				echo "HEADERS : ".var_dump($headers);
 				echo "<br><br>";
 				echo "SUJET : ".$sujet;
 				echo "<br><br>";
 				echo "CORPS : ".$corp;
-				echo "<br><br>";
+				echo "<br><br>"; */
  				
     if (mail($dest, $sujet, $corp, $headers)) {
       //echo "Email envoyé avec succès à $dest ...";
@@ -90,6 +90,6 @@
 
 
 
-}
+
 
 ?>

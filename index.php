@@ -5,7 +5,7 @@ $_PHONE_LINK = "0649934637";
 $_MAIL = "r.durin@finance-copro.fr";
 $_MAP_LINK = "https://maps.app.goo.gl/xiRd6KTxx8xd7nrZA";
 $_ADRESSE_RUE = "469, rue Favre St-Castor";
-$_ADRESSE_VILLE_CP = "MONTPELLIER (38 080)";
+$_ADRESSE_VILLE_CP = "MONTPELLIER (34 080)";
 
 // MENTIONS LEGALES
 if (isset($_GET['page']) && 'mentions-legales' === $_GET['page']) {
@@ -23,10 +23,18 @@ elseif (isset($_GET['page']) && 'vous-financer' === $_GET['page']) {
     require_once('vues/layout.php');
 }
 
-// VOUS FINANCER
+// NOS MISSIONS
 elseif (isset($_GET['page']) && 'nos-missions' === $_GET['page']) {
     ob_start();
     require_once('vues/page-nos-missions.php');
+    $contenu = ob_get_clean();
+    require_once('vues/layout.php');
+}
+
+// NOS REALISATIONS
+elseif (isset($_GET['page']) && 'nos-realisations' === $_GET['page']) {
+    ob_start();
+    require_once('vues/page-nos-realisations.php');
     $contenu = ob_get_clean();
     require_once('vues/layout.php');
 }

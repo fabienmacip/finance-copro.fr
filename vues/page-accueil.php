@@ -9,7 +9,7 @@ ob_start();
 
 <div class="m-0 max-width-100vw">
   <div id="div-image-accueil" class="box">
-      Finance Copro
+  FINANCE COPRO
   </div>
 
 <?php
@@ -31,7 +31,7 @@ ob_start();
   <div class="row max-width-100percent jcc wrap" id="accueil-text-boxes">
     
     <div class="accueil-text-boxes" id="accueil-bienvenue">
-      <h2>Bienvenue chez Finance Copro</h2>
+      <h2>Bienvenue chez FINANCE COPRO</h2>
       <div id="image-accueil-text">
         Ensemble pour vous accompagner sur les financements de travaux en copropri&eacute;t&eacute;.
       </div>
@@ -72,10 +72,19 @@ ob_start();
               Acquisition de foncier pour création de surfaces annexes (parking, espaces verts...),
             </li>
             <li>
-              Calorifugeage et chaufferie, couverture tuile et étanchéité...
+              Calorifugeage et chaufferie,
             </li>
             <li>
-              Refroidissement d’une résidence...
+              Couverture tuile et étanchéité,
+            </li>
+            <li>
+              Refroidissement d’une résidence,
+            </li>
+            <li>
+              V.M.C. ,
+            </li>
+            <li>
+              Rénovation énergétique globale.
             </li>
           </ul>
         </div>
@@ -91,7 +100,7 @@ ob_start();
           <div class="activite-card-img display-under-830">
             <img src="img/accueil/nos-missions-landscape.jpg">
           </div> 
-          <div class="activite-card-text">
+          <div class="activite-card-text" id="activite-card-text-nos-missions">
             <p>
               Voici nos <b>principales missions</b> : 
             </p>

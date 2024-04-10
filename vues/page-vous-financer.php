@@ -2,12 +2,12 @@
 
     <h1>VOUS FINANCER</h1>
 
-    <h2>Le prêt collectif</h2>
+    <h2>Les caractéristiques du prêt collectif</h2>
 
     <div class="vous-financer-cards">
         <div class="vous-financer-card">
             <div class="vous-financer-card-title">
-                Son fontionnement
+                Son fonctionnement
             </div>
             <div class="vous-financer-card-text">
                 <ul>
@@ -40,7 +40,7 @@
                         Pas de questionnaires médicaux
                     </li>
                     <li>
-                        Pas de calcul d’endettement pour adhérer
+                        Pas d'étude de solvabilité ou de calcul de taux d'endettement pour adhérer
                     </li>
                     <li>
                         Pas d’ouverture de compte bancaire
@@ -48,16 +48,16 @@
                     <li>
                         Un process administratif allégé pour le copropriétaire
                     </li>
-                    <li>
+<!--                     <li>
                         Financement non impactant sur l’endettement avec le prélèvement sur le compte travaux
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
 
     </div>
 
-    <h2>Les prêts collectifs</h2>
+    <h2>Types de prêts collectifs</h2>
 
     <div class="vous-financer-cards">
 
@@ -80,7 +80,9 @@
                         Avance de subventions publiques : Crédit relais de trésorerie permettant d’avancer les subventions collectives perçues en cours ou fin de chantier
                     </li>
                     <li>
-                        Prêt AREC : <span class="pret-bonifie">Prêt bonifié de la région Occitanie</span> afin de financer les travaux de rénovation énergétique (seuil d’amélioration de 40%)
+                        Prêt AREC : <span class="pret-bonifie">Prêt bonifié de la région Occitanie</span> 
+                        afin de financer les travaux de rénovation énergétique (seuil d’amélioration de 40%)<br>
+                        <img src="img/vous-financer/arec.png" alt="partenaire arec-occitanie" id="img-arec" class="box">
                     </li>
                 </ul>
     

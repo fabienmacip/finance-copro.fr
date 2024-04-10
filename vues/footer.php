@@ -5,7 +5,7 @@
         <div class="flex-1" id="footer-partenaires">
         </div>
         <div class="flex-2">
-            <p>Finance Copro - Tous droits réservés</p>
+            <p>FINANCE COPRO - Tous droits réservés</p>
             <p>Webmaster - <a href="mailto:fabien.macip@gmail.com">fabien.macip@gmail.com</a></p>
         </div>
 </footer>

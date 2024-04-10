@@ -18,11 +18,11 @@
     <img src="img/partenaires/fnaim.png" alt="partenaire fnaim">
   </a>
 </div>
-<div>
+<!-- <div>
   <a href="https://www.qualitel.org/" target="_blank">
     <img src="img/partenaires/qualitel.jpg" alt="partenaire qualitel">
   </a>
-</div>
+</div> -->
 <div>
   <a href="https://www.unis-immo.fr/" target="_blank">
     <img src="img/partenaires/unis.jpg" alt="partenaire unis-immo">

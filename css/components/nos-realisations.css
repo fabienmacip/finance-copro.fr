@@ -1,0 +1,122 @@
+#nos-realisations-div {
+}
+#realisations {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.realisation {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  width: 600px;
+  max-width: 98%;
+}
+
+.realisation-header {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1rem;
+  margin: 6px;
+}
+
+.realisation-body {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--main-color-light);
+}
+
+.realisation-header-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+.realisation-header-right {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  border: 1px solid var(--main-color-light);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.realisation-header-right > div {
+  flex: 1;
+  margin: 5px auto;
+}
+
+.realisation-header-right > div:nth-child(2) {
+  border-left: 1px solid var(--main-color-light);
+  border-right: 1px solid var(--main-color-light);
+}
+
+.realisation-header-right > div > img {
+  width: 80%;
+}
+
+.realisation-body-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.realisation-body-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.realisation-body-details {
+  text-align: left;
+}
+.realisation-body-subventions {
+  width: 90%;
+  margin: 0 auto;
+
+  background-color: rgb(49, 134, 173);
+  color: white;
+
+  padding: 6px;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.realisation-body-dpe {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+.realisation-body-dpe-before {
+  flex: 3;
+}
+
+.realisation-body-dpe-arrow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--main-color-yellow);
+  font-size: 1.5rem;
+}
+.realisation-body-dpe-after {
+  flex: 3;
+}
